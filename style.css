@@ -89,7 +89,7 @@ section {
   padding-left: 8%;
 }
 .foot {
-  height: 500px;
+  height: 600px;
   background-image: url("images/footer-bg.png");
   background-repeat: no-repeat;
   background-size: 100%;
@@ -105,17 +105,18 @@ section {
   text-align: center;
   font-size: smaller;
 }
+.view {
+  margin-left: 37%;
+}
+
 .link-button2 {
   text-decoration: none;
   color: white;
   padding: 12px;
   background-image: linear-gradient(45deg, tomato, palevioletred);
-  font-weight: 700px;
   border-radius: 6px;
-  padding: 2%;
   position: relative;
-  left: 480px;
-  height: 300px;
+  left: 550px;
 }
 a:visited {
   text-decoration: none;
@@ -123,4 +124,19 @@ a:visited {
 #copyright {
   position: relative;
   top: 150px;
+}
+.white {
+  color: white;
+}
+#m {
+  font-size: x-large;
+}
+.marker {
+  text-align: center;
+  background-color: palevioletred;
+  width: 30%;
+  padding-top: 25px;
+  margin: auto;
+  height: 150px;
+  border-radius: 10px;
 }
