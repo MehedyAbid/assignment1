@@ -26,6 +26,35 @@ h2.pos {
 h1 {
   font-size: 60px;
 }
+table {
+  border-collapse: collapse;
+}
+table {
+  width: 75%;
+  height: 100px;
+  margin: auto;
+}
+#edu {
+  height: 300px;
+  background-color: dimgray;
+}
+table,
+th,
+td {
+  border: 1px solid black;
+}
+tr:hover {
+  background-color: #f55;
+}
+#tabl {
+  text-align: center;
+  margin-top: 30px;
+  background-color: peru;
+}
+th,
+td {
+  text-align: center;
+}
 section {
   height: 700px;
 }
@@ -72,6 +101,15 @@ section {
   background-image: linear-gradient(45deg, tomato, palevioletred);
   font-weight: 700px;
   border-radius: 6px;
+}
+.link-button:hover {
+  text-decoration: none;
+  color: white;
+  padding: 12px;
+  background-image: linear-gradient(45deg, tomato, palevioletred);
+  font-weight: 700px;
+  border-radius: 6px;
+  font-size: x-large;
 }
 .works {
   width: 25%;
